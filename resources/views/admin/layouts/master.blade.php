@@ -11,53 +11,52 @@
     @include('admin.layouts.header')
 </head>
 
-  <body>
+<body>
     <!-- Layout wrapper -->
     <div class="layout-wrapper layout-content-navbar">
-      <div class="layout-container">
-        <!-- Menu -->
+        <div class="layout-container">
+            <!-- Menu -->
 
-        @include('admin.layouts.menu')
+            @include('admin.layouts.menu')
 
-        <!-- / Menu -->
+            <!-- / Menu -->
 
-        <!-- Layout container -->
-        <div class="layout-page">
-          <!-- Navbar -->
+            <!-- Layout container -->
+            <div class="layout-page">
+                <!-- Navbar -->
 
-          @include('admin.layouts.navabar')
-
-
-          <!-- / Navbar -->
-
-          <!-- Content wrapper -->
-          <div class="content-wrapper">
-            <!-- Content -->
+                @include('admin.layouts.navabar')
 
 
-            @yield('Content')
+                <!-- / Navbar -->
 
+                <!-- Content wrapper -->
+                <div class="content-wrapper">
+                    <!-- Content -->
 
-            <!-- / Content -->
+                    @yield('Content')
+                </div>
 
-            <!-- Footer -->
+                <!-- / Content -->
 
-            @include('admin.layouts.footer')
+                <!-- Footer -->
 
-            <!-- / Footer -->
+                @include('admin.layouts.footer')
 
-            <div class="content-backdrop fade"></div>
-          </div>
-          <!-- Content wrapper -->
+                <!-- / Footer -->
+
+                <div class="content-backdrop fade"></div>
+            </div>
+            <!-- Content wrapper -->
         </div>
         <!-- / Layout page -->
-      </div>
+    </div>
 
-      <!-- Overlay -->
-      <div class="layout-overlay layout-menu-toggle"></div>
+    <!-- Overlay -->
+    <div class="layout-overlay layout-menu-toggle"></div>
 
-      <!-- Drag Target Area To SlideIn Menu On Small Screens -->
-      <div class="drag-target"></div>
+    <!-- Drag Target Area To SlideIn Menu On Small Screens -->
+    <div class="drag-target"></div>
     </div>
     <!-- / Layout wrapper -->
 
@@ -79,5 +78,6 @@
     <script src="{{ asset('assets/js/main.js') }}"></script>
 
     <!-- Page JS -->
-  </body>
+</body>
+
 </html>

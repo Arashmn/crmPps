@@ -5,7 +5,8 @@ return [
 
     'title'=>[
 
-        'title index'=>'صفحه اصلی '
+        'title index'=>'صفحه اصلی ',
+        'title users'=>'صفحه کاربران',
     ],
 
     'menu'=>[
@@ -13,7 +14,7 @@ return [
         'title menu'=>'مدیریت سیستم',
         'dashboard'=>'داشبور',
         'user'=>[
-            'users'=>'کاربران',
+            'users'=>'کارمندان',
             'role'=>'سمت ها',
             'permission'=>'دسترسی ها',
         ],
@@ -24,7 +25,5 @@ return [
             'permission'=>'دسترسی ها',
         ],
     ]
-
-
 
 ];
