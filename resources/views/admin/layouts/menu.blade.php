@@ -55,24 +55,47 @@
         <li class="menu-item active open">
             <a href="javascript:void(0);" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                <div data-i18n="Dashboards">داشبوردها</div>
+                <div data-i18n="Dashboards">@lang('public.menu.dashboard')</div>
             </a>
         </li>
 
         <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-user"></i>
-                <div data-i18n="Users">کاربران</div>
+                <div data-i18n="Users">@lang('public.menu.user.users')</div>
             </a>
             <ul class="menu-sub">
                 <li class="menu-item">
                     <a href="app-user-list.html" class="menu-link">
-                        <div data-i18n="List">لیست</div>
+                        <div data-i18n="List">@lang('public.menu.user.users')</div>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="app-user-list.html" class="menu-link">
+                        <div data-i18n="List">@lang('public.menu.user.role')</div>
                     </a>
                 </li>
                 <li class="menu-item">
                     <a href="javascript:void(0);" class="menu-link">
-                        <div data-i18n="View">نمایش</div>
+                        <div data-i18n="View">@lang('public.menu.user.permission')</div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-user-check"></i>
+                <div data-i18n="Users">@lang('public.menu.customer.customers')</div>
+            </a>
+            <ul class="menu-sub">
+                <li class="menu-item">
+                    <a href="app-user-list.html" class="menu-link">
+                        <div data-i18n="List">@lang('public.menu.customer.create customer')</div>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="app-user-list.html" class="menu-link">
+                        <div data-i18n="List">@lang('public.menu.customer.all customer')</div>
                     </a>
                 </li>
             </ul>
