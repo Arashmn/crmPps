@@ -7,6 +7,7 @@ return [
 
         'title index'=>'صفحه اصلی ',
         'title users'=>'صفحه کاربران',
+        'title user create'=>' اضافه کردن کارمند',
     ],
 
     'menu'=>[

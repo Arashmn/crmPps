@@ -21,10 +21,10 @@ return new class extends Migration
             $table->string('mobile');
             $table->string('code_meli');
             $table->string('address');
-            $table->string('moraf');
-            $table->string('sheba');
+            $table->string('moraf')->nullable();
+            $table->string('sheba')->nullable();
             $table->string('finish')->nullable();
-            $table->string('birthday')->nullable();
+            $table->string('birthday');
             $table->timestamp('mobile_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
